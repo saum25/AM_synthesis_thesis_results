@@ -33,7 +33,9 @@ Each seed provides a Gaussian noise vector that the experiments iteratively opti
 5. example_iteration0_scorexyz.pdf - visualisation of the Mel-spectrogram of the synthesised example. Score refers to the pre-sigmoidal activation of the output neuron corresponding to the synthesised example. CAUTION - iteration number is incorrectly mentioned 0 in all the examples. Please ignore this. Moreover, some visualisations are normalised to [0, 1] range, but some are not.
 
 ============
+
 Miscellanous
+
 ============
 
 1. optm_stats_Adam.csv files are provided in some directories. They summarise the optimisation results for a configuration setting.
