@@ -1,4 +1,4 @@
-# AM_audio_thesis_results
+# AM_synthesis_thesis_results
 
 This repository contains the results of the Activation Maximisation experiments in the PhD thesis. The details about the content of each folder are mentioned below.
 
