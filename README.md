@@ -14,11 +14,11 @@ This repository contains the results of the Activation Maximisation experiments 
    
    a) Contains the results for the experiment 3 that uses three configurations (best and median from the experiment 1 and the best from the experiment 2) from the previous experiments to maximise and minimise the single output layer neuron in SVDNet-R1. 
 
-======================
+======================================
 
 Details of the files in each directory
 
-======================
+======================================
 
 Each seed provides a Gaussian noise vector that the experiments iteratively optimise. For each seed, there exist five files details of which are mentioned below.
 
