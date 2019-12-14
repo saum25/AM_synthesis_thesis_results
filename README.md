@@ -21,7 +21,11 @@ Details of the files in each directory
 Each seed provides a Gaussian noise vector that the experiments iteratively optimise. For each seed, there exist five files details of which are mentioned below.
 
 1. recon_mel_max.wav - temporal representation of the sythesised example(Mel-spectrogram).
+
 2. noise_L2_norm.pdf - plots the L2 norm of the noise vector at each optimisation step.
+
 3. neuron_score.pdf - plots the pre-sigmoidal activation of the output layer neuron in SVDNet-R1 at each optimisation step.
+
 4. grad_L2_norm.pdf - plots the L2 norm of the gradient vector at each optimisation step.
+
 5. example_iteration0_score7.94.pdf - visualisation of the Mel-spectrogram of the synthesised example. Score refers to the pre-sigmoidal activation of the output neuron corresponding to the synthesised example. CAUTION - iteration number is incorrectly mentioned 0 in all the examples. Please ignore this. Moreover, some visualisations are normalised to [0, 1] range, but some are not.
