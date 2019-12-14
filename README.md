@@ -12,7 +12,7 @@ This repository contains the results of the Activation Maximisation experiments 
 
 2. Directory - max_min_onm
    
-   a) Contains the results for the experiment 3 that uses three configurations (best and median from the experiment 1 and the best from the experiment 2) from the previous experiments to maximise and minimise the single output layer neuron in SVDNet-R1. 
+   a) Contains the results for the experiment 3 that uses three configurations (the best and median from the experiment 2 and the best from the experiment 1) from the previous experiments to maximise and minimise the single output layer neuron in SVDNet-R1 to understand the high-level concepts it learns.
 
 ======================================
 
@@ -20,9 +20,9 @@ Details of the files in each directory
 
 ======================================
 
-Each seed provides a Gaussian noise vector that the experiments iteratively optimise. For each seed, there exist five files details of which are mentioned below.
+Each seed provides a Gaussian noise vector that the experiments iteratively optimises. For each seed, there exists five files, details of which are mentioned below.
 
-1. recon_mel_max.wav - temporal representation of the sythesised example(Mel-spectrogram).
+1. recon_mel_max.wav - temporal representation of the sythesised example (Mel-spectrogram).
 
 2. noise_L2_norm.pdf - plots the L2 norm of the noise vector at each optimisation step.
 
