@@ -13,6 +13,10 @@ This repository contains the results of the Activation Maximisation experiments 
 2. Directory - max_min_onm
    
    a) Contains the results for the experiment 3 that uses three configurations (the best and median from the experiment 2 and the best from the experiment 1) from the previous experiments to maximise and minimise the single output layer neuron in SVDNet-R1 to understand the high-level concepts it learns.
+   
+3. Directory - hyper_param_search_tnm
+
+   a) Contains the results of experiment 4 that uses the FID metric to analyse the hyper_parameter configurations for maximally activating the non-vocal (index = 0) and vocal (index=1) neurons in the output layer of the two neuron model.
 
 ======================================
 
