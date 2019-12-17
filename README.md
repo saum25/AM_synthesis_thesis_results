@@ -17,6 +17,10 @@ This repository contains the results of the Activation Maximisation experiments 
 3. Directory - hyper_param_search_tnm
 
    a) Contains the results of experiment 4 that uses the FID metric to analyse the hyper_parameter configurations for maximally activating the non-vocal (index = 0) and vocal (index=1) neurons in the output layer of the two neuron model.
+   
+4. Directory - comp_onm_tnm
+
+   a) Contains the results of experiments to compare the interpretability of examples synthesised for SVDNet-R1 and SVDNet-R2 models. Two experiments are performed to analyse the interpretability of synthesised examples. The first experiment compares Mel-spectrograms synthesised by minimally activating the output layer neuron in SVDNet-R1 with examples synthesised to maximally activate the non-vocal neuron in SVDNet-R2. The second experiment compares examples to maximally activate the output neuron in SVDNet-R1 with examples that maximally activate the vocal neuron in SVDNet-R2.
 
 ======================================
 
